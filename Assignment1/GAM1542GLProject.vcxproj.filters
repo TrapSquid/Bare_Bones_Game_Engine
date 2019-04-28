@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{932aaeb3-e5e1-4753-a676-2862bafc1cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{eb47c53c-2a54-4c12-a4fb-9e9769304cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{27a1a792-900b-481f-a935-99ac27807878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GL">
+      <UniqueIdentifier>{49eab2c6-21d6-4c27-964a-2529b06ab43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\lodepng">
+      <UniqueIdentifier>{032889b0-63e3-4061-900e-cce2507da25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{cf0a3702-302a-4210-9c32-9c2b5d1ad800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{1319b681-32c8-4ef1-8ba6-74878cb0a39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RandomCodeFiles">
+      <UniqueIdentifier>{ad0d316e-2f15-4a3a-9b96-2512162cd330}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GL\glext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\GLExtensions.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GL\wglext.h">
+      <Filter>Source\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\lodepng\lodepng.h">
+      <Filter>Source\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\MyMatrix.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Utility.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Vector.h">
+      <Filter>Source\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Helpers.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\ShaderProgram.h">
+      <Filter>Source\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CommonHeader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Target.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shapes.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelTile.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RandomCodeFiles\RandomNumberGenerator.h">
+      <Filter>Source\RandomCodeFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RandomCodeFiles\functions.h">
+      <Filter>Source\RandomCodeFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GL\GLExtensions.cpp">
+      <Filter>Source\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\lodepng\lodepng.cpp">
+      <Filter>Source\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\MyMatrix.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math\Vector.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Helpers.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\ShaderProgram.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Target.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shapes.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelTile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RandomCodeFiles\RandomNumberGenerator.cpp">
+      <Filter>Source\RandomCodeFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RandomCodeFiles\functions.cpp">
+      <Filter>Source\RandomCodeFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Shaders\white.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="Data\Shaders\white.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

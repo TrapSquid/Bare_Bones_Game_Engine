@@ -1,0 +1,30 @@
+﻿  WinMain.cpp
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\WinMain.cpp(185): warning C4838: conversion from 'int' to 'BYTE' requires a narrowing conversion
+  Camera.cpp
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Camera.cpp(43): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  Enemy.cpp
+  Game.cpp
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Game.cpp(126): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Game.cpp(148): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Game.cpp(151): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Game.cpp(162): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  GameObject.cpp
+  GLExtensions.cpp
+  LevelTile.cpp
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\LevelTile.cpp(97): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  MyMatrix.cpp
+  Vector.cpp
+  Player.cpp
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Player.cpp(28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Player.cpp(32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Player.cpp(37): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+E:\Git\Bare_Bones_Game_Engine\Assignment1\Source\Player.cpp(42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  functions.cpp
+  RandomNumberGenerator.cpp
+  Shapes.cpp
+  Target.cpp
+  Helpers.cpp
+  ShaderProgram.cpp
+  Generating Code...
+  lodepng.cpp
+  GAM1542GLProject.vcxproj -> E:\Git\Bare_Bones_Game_Engine\Assignment1\\Output\Debug\GAM1542GLProject.exe
